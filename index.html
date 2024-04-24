@@ -11,7 +11,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;700&display=swap');
 
     body {
-      color: #f0f0f0;
+      color: #333333; /* Darker text color */
       font-family: 'Google Sans', sans-serif;
       margin: 0;
       padding: 0;
@@ -24,10 +24,11 @@
       padding: 20px;
       display: flex;
       align-items: center;
+      justify-content: space-between; /* Centered content */
     }
 
     .logo {
-      fill: #f0f0f0;
+      fill: #333333; /* Darker logo color */
       height: 40px;
       width: auto;
     }
@@ -49,13 +50,14 @@
 
     .navbar {
       display: flex;
-      justify-content: space-between;
+      justify-content: center; /* Centered navbar */
       align-items: center;
       padding: 10px 20px;
+      background-color: #333333; /* Darker background */
     }
 
     .navbar a {
-      color: #f0f0f0;
+      color: #f0f0f0; /* Lighter text color */
       text-decoration: none;
       margin-right: 20px;
     }
@@ -87,9 +89,9 @@
     .btn {
       display: inline-block;
       padding: 10px 20px;
-      background-color: #333333;
-      color: #f0f0f0;
-      border: 1px solid #f0f0f0;
+      background-color: #666666; /* Darkish background */
+      color: #f0f0f0; /* Lighter text color */
+      border: 1px solid #f0f0f0; /* Lighter border color */
       border-radius: 5px;
       text-decoration: none;
       font-size: 1em;
@@ -97,7 +99,7 @@
     }
 
     .btn:hover {
-      background-color: #666666;
+      background-color: #999999; /* Darker background on hover */
     }
 
     .icons {
@@ -114,7 +116,7 @@
     }
 
     .icon svg {
-      fill: #f0f0f0;
+      fill: #333333; /* Darker icon color */
       height: 40px;
       width: auto;
       margin-bottom: 10px;
@@ -124,19 +126,12 @@
       font-size: 0.8em;
     }
 
-    .credits {
-      margin-top: 20px;
-      color: #f0f0f0;
-      font-size: 1.2em;
-      text-align: center;
-    }
-
     @keyframes colorChange {
       0% {
         background-color: #000;
       }
       50% {
-        background-color: #666;
+        background-color: #444; /* Darkish background */
       }
       100% {
         background-color: #000;
@@ -179,14 +174,6 @@
         </svg>
         <span>Windows 10 & 11</span>
       </div>
-    </div>
-    <div class="credits">
-      <p>Credits:</p>
-      <ul>
-        <li>Savage: Programmer and UI Designer</li>
-        <li>Cipher: Founder and Programmer</li>
-        <li>Whatman: Programmer and Site Developer</li>
-      </ul>
     </div>
     <div>
       <a href="https://youtube.com" class="btn">Download</a>
