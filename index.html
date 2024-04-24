@@ -16,6 +16,12 @@
       font-family: 'Google Sans', sans-serif;
       margin: 0;
       padding: 0;
+      transition: background-color 0.5s ease; /* Background color transition */
+    }
+
+    /* Add a class to trigger the animation */
+    .dark-mode body {
+      background-color: #333333; /* Darker background */
     }
 
     .container {
@@ -127,11 +133,10 @@
     }
 
     .credits {
-      position: fixed;
-      bottom: 10px;
-      right: 10px;
+      margin-top: 20px;
       color: #f0f0f0; /* Lighter text color */
-      font-size: 0.8em;
+      font-size: 1.2em; /* Bigger text size */
+      text-align: center;
     }
   </style>
 </head>
@@ -168,14 +173,6 @@
       <a href="https://youtube.com" class="btn">Download</a>
       <a href="https://discord.gg/Chaosploit" class="btn">Discord</a>
     </div>
-    <div class="icons">
-      <div class="icon">
-        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 32 32">
-          <path d="M15,15H5V5h10V15z M27,5H17v10h10V5z M15,17H5v10h10V17z M27,17H17v10h10V17z"></path>
-        </svg>
-        <span>Windows 10 & 11</span>
-      </div>
-    </div>
     <div class="credits">
       <p>Credits:</p>
       <ul>
@@ -183,6 +180,14 @@
         <li>Cipher: Founder and Programmer</li>
         <li>Whatman: Programmer and Site Developer</li>
       </ul>
+    </div>
+    <div class="icons">
+      <div class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 32 32">
+          <path d="M15,15H5V5h10V15z M27,5H17v10h10V5z M15,17H5v10h10V17z M27,17H17v10h10V17z"></path>
+        </svg>
+        <span>Windows 10 & 11</span>
+      </div>
     </div>
   </div>
 </body>
