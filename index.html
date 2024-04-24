@@ -7,138 +7,7 @@
   <title>Chaos</title>
   <meta name="description" content="Next level scripting" />
   <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="725x725" />
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;700&display=swap');
-
-    body {
-      background-color: #1f1f1f; /* Lighter background */
-      color: #f0f0f0; /* Lighter text color */
-      font-family: 'Google Sans', sans-serif;
-      margin: 0;
-      padding: 0;
-      transition: background-color 0.5s ease; /* Background color transition */
-    }
-
-    /* Add a class to trigger the animation */
-    .dark-mode body {
-      background-color: #333333; /* Darker background */
-    }
-
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 20px;
-      display: flex;
-      align-items: center;
-    }
-
-    .logo {
-      fill: #f0f0f0; /* Lighter logo color */
-      height: 40px;
-      width: auto;
-    }
-
-    .title {
-      font-size: 2em;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-
-    .exec-logo {
-      margin-right: auto;
-    }
-
-    .exec-logo img {
-      height: 50px;
-      width: auto;
-    }
-
-    .navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 20px;
-      background-color: #333333; /* Darker background */
-    }
-
-    .navbar a {
-      color: #f0f0f0; /* Lighter text color */
-      text-decoration: none;
-      margin-right: 20px;
-    }
-
-    .navbar a:last-child {
-      margin-right: 0;
-    }
-
-    .main-content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding-top: 50px;
-    }
-
-    .main-content h1 {
-      font-size: 3em;
-      font-weight: bold;
-      margin-bottom: 20px;
-    }
-
-    .main-content p {
-      font-size: 1.2em;
-      margin-bottom: 30px;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #333333; /* Darker background */
-      color: #f0f0f0; /* Lighter text color */
-      border: 1px solid #f0f0f0; /* Lighter border color */
-      border-radius: 5px;
-      text-decoration: none;
-      font-size: 1em;
-      transition: background-color 0.3s ease;
-    }
-
-    .btn:hover {
-      background-color: #666666; /* Darker background on hover */
-      color: #f0f0f0; /* Lighter text color on hover */
-    }
-
-    .icons {
-      display: flex;
-      justify-content: flex-end;
-      margin-top: 20px;
-    }
-
-    .icon {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 0 20px;
-    }
-
-    .icon svg {
-      fill: #f0f0f0; /* Lighter icon color */
-      height: 40px;
-      width: auto;
-      margin-bottom: 10px;
-    }
-
-    .icon span {
-      font-size: 0.8em;
-    }
-
-    .credits {
-      margin-top: 20px;
-      color: #f0f0f0; /* Lighter text color */
-      font-size: 1.2em; /* Bigger text size */
-      text-align: center;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -169,9 +38,13 @@
   <div class="main-content">
     <h1>Chaos the best executor ever.</h1>
     <p>Byfron is nothing. Chaos is the best undetected Roblox executor. No crashes, updates are fast unlike others, it's just better.</p>
-    <div>
-      <a href="https://youtube.com" class="btn">Download</a>
-      <a href="https://discord.gg/Chaosploit" class="btn">Discord</a>
+    <div class="icons">
+      <div class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 32 32">
+          <path d="M15,15H5V5h10V15z M27,5H17v10h10V5z M15,17H5v10h10V17z M27,17H17v10h10V17z"></path>
+        </svg>
+        <span>Windows 10 & 11</span>
+      </div>
     </div>
     <div class="credits">
       <p>Credits:</p>
@@ -181,15 +54,8 @@
         <li>Whatman: Programmer and Site Developer</li>
       </ul>
     </div>
-    <div class="icons">
-      <div class="icon">
-        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 32 32">
-          <path d="M15,15H5V5h10V15z M27,5H17v10h10V5z M15,17H5v10h10V17z M27,17H17v10h10V17z"></path>
-        </svg>
-        <span>Windows 10 & 11</span>
-      </div>
-    </div>
   </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
