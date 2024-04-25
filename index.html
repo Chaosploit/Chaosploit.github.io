@@ -91,17 +91,22 @@
     .btn {
       display: inline-block;
       padding: 10px 20px;
-      background-color: #666666; /* Darkish background */
+      background-color: #444444; /* Darker background */
       color: #f0f0f0; /* Lighter text color */
       border: 1px solid #f0f0f0; /* Lighter border color */
       border-radius: 5px;
       text-decoration: none;
       font-size: 1em;
       transition: background-color 0.3s ease;
+      margin-right: 10px; /* Added spacing between buttons */
+    }
+
+    .btn:last-child {
+      margin-right: 0; /* Remove margin from last button */
     }
 
     .btn:hover {
-      background-color: #999999; /* Darker background on hover */
+      background-color: #666666; /* Darker background on hover */
     }
 
     .icons {
